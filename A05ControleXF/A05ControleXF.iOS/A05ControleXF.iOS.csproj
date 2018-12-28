@@ -157,4 +157,7 @@
       <Name>A05ControleXF</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\RedButton.png" />
+  </ItemGroup>
 </Project>

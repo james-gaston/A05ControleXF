@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:page="clr-namespace:A05ControleXF"
+             x:Class="A05ControleXF.Menu.Master">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Button Text="Main Page" Clicked="GoMainPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="Ativity Indicator" Clicked="GoActivityIndicatorPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="Progress Bar" Clicked="GoProgressBarPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="BoxView" Clicked="GoBoxViewPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="Label" Clicked="GoLabelPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="Button" Clicked="GoButtonPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="Entry/Editor" Clicked="GoEntryEditorPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="DatePicker" Clicked="GoDatePickerPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="TimePicker" Clicked="GoTimePickerPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="Picker" Clicked="GoPickerPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="Search Bar" Clicked="GoSearchBarPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="Slider/Stepper" Clicked="GoSliderStepperPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                <Button Text="Switch" Clicked="GoSwitchPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

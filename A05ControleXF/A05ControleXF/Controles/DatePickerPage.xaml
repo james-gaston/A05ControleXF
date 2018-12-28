@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="A05ControleXF.Controles.DatePickerPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <DatePicker
+                TextColor="Red"
+                Format="dd/MM/yyyy"
+                MinimumDate="01/01/2000"
+                MaximumDate="12/31/2099"
+                Date="01/01/2018"
+                
+                DateSelected="ActionDateSelected"
+                />
+            <Label x:Name="lbl_Resultado"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
