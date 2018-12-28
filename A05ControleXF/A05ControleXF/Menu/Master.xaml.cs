@@ -93,6 +93,11 @@ namespace A05ControleXF.Menu
         {
             PushAsyncToRoot(nav, new Controles.SwitchPage());
         }
+        
+        private void GoImagePage(object sender, EventArgs args)
+        {
+            PushAsyncToRoot(nav, new Controles.ImagePage());
+        }
 
     }
 }
