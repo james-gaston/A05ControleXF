@@ -3,11 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="A05ControleXF.Controles.ImagePage">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center">
+        <StackLayout VerticalOptions="Center" x:Name="Container">
             <Image 
                 Source="https://brandmark.io/logo-rank/random/pepsi.png"
                 Aspect="AspectFit"
                 IsOpaque="True"
+                x:Name="ImageOne"
                 />
         </StackLayout>
     </ContentPage.Content>

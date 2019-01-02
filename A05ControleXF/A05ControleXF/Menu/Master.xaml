@@ -21,6 +21,9 @@
                     <Button Text="Slider/Stepper" Clicked="GoSliderStepperPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
                     <Button Text="Switch" Clicked="GoSwitchPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
                     <Button Text="Image" Clicked="GoImagePage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                    <Button Text="ListView" Clicked="GoListViewPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                    <Button Text="TableView" Clicked="GoTableViewPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
+                    <Button Text="WebView" Clicked="GoWebViewPage" BackgroundColor="#448AFF" FontSize="24" TextColor="White"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

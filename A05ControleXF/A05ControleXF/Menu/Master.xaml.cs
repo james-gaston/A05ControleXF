@@ -99,5 +99,20 @@ namespace A05ControleXF.Menu
             PushAsyncToRoot(nav, new Controles.ImagePage());
         }
 
+        private void GoListViewPage(object sender, EventArgs args)
+        {
+            PushAsyncToRoot(nav, new Controles.ListViewPage());
+        }
+
+        private void GoTableViewPage(object sender, EventArgs args)
+        {
+            PushAsyncToRoot(nav, new Controles.TableViewPage());
+        }
+
+        private void GoWebViewPage(object sender, EventArgs args)
+        {
+            PushAsyncToRoot(nav, new Controles.WebViewPage());
+        }
+
     }
 }
